@@ -1,0 +1,66 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+body::after {
+    content: "";
+    background: url('https://www.simplypsychology.org/wp-content/uploads/counting-ocd.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+
+.container {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 75px;
+    text-decoration: underline;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#add-btn {
+    background: darkblue;
+}
+
+#save-btn {
+    background: green;
+}
